@@ -62,11 +62,11 @@
       "/node_modules/(?!o-.*)/"
     ],
     "moduleNameMapper": {
-      "^actions(.*)": "<rootDir>/src/AppBundle/Resources/scripts/js/react/actions$1",
-      "^components(.*)": "<rootDir>/src/AppBundle/Resources/scripts/js/react/components$1",
-      "^containers(.*)": "<rootDir>/src/AppBundle/Resources/scripts/js/react/containers$1",
-      "^reducers(.*)": "<rootDir>/src/AppBundle/Resources/scripts/js/react/reducers$1",
-      "^store(.*)": "<rootDir>/src/AppBundle/Resources/scripts/js/react/store$1"
+      "^actions(.*)": "<rootDir>/src/Resources/scripts/js/react/actions$1",
+      "^components(.*)": "<rootDir>/src/Resources/scripts/js/react/components$1",
+      "^containers(.*)": "<rootDir>/src/Resources/scripts/js/react/containers$1",
+      "^reducers(.*)": "<rootDir>/src/Resources/scripts/js/react/reducers$1",
+      "^store(.*)": "<rootDir>/src/Resources/scripts/js/react/store$1"
     },
     "testRegex": ".*.(test|spec).js[x]?$"
   },
