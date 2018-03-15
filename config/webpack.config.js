@@ -8,9 +8,9 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const env = process.env.NODE_ENV === 'prd' ? 'production' : 'development';
 const root = `${__dirname}/../../`;
 const paths = {
-  assets: resolve(root, 'src/AppBundle/Resources/views/Assets/'),
+  assets: resolve(root, 'src/Resources/views/Assets/'),
   scripts: resolve(root, 'web/scripts/js'),
-  context: resolve(root, 'src/AppBundle/Resources/scripts/js/'),
+  context: resolve(root, 'src/Resources/scripts/js/'),
 };
 
 const manifestPlugin = (file, path) => ({
@@ -108,7 +108,7 @@ const config = {
     extensions: ['.js', '.jsx'],
     modules: [
       'node_modules',
-      './src/AppBundle/Resources/scripts/js',
+      './src/Resources/scripts/js',
     ],
   },
   target: 'web',
